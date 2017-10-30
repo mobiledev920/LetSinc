@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Terms Of Service View Controller-->
+        <scene sceneID="Lrz-Eu-cYP">
+            <objects>
+                <viewController storyboardIdentifier="TermsOfServiceViewController" id="jtJ-cg-lUe" customClass="TermsOfServiceViewController" customModule="LetSinc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BnB-od-aLi"/>
+                        <viewControllerLayoutGuide type="bottom" id="uIH-OH-ghL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="het-ZF-8ux">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Di-QN-xT1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <action selector="onDismissTriggered:" destination="jtJ-cg-lUe" eventType="touchUpInside" id="CAd-VJ-gl1"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fd3-QW-I5V">
+                                <rect key="frame" x="16" y="120" width="343" height="447"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Br1-6v-jbr">
+                                        <rect key="frame" x="5" y="5" width="333" height="437"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">TERMS OF USE
+LAST UPDATED MARCH 1, 2017
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">1. THIS AGREEMENT.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">This User Agreement (the “Agreement”) is a contract between You (hereinafter the “User”, or “You”, and in the possessive form, “Your”) and LetSinc App and its affiliates (“Company”), and governs Your use of Company’s services. It is entered into in consideration for all the obligations, terms, and covenants set forth herein, and other good and valuable consideration. By using Company’s services, You acknowledge that You have read, and that You agree to and accept all of the terms and conditions contained in this Agreement.
+
+2. SERVICES.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="LetSinc App is accessible on computer through Mobile connection /LetSincApp(together, the ">
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="&quot;">
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Site">
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="&quot;">
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">), and on mobile device through the LetSinc App app (“App”).
+
+3. THE APP AND USER FEES.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">The App is free for users to download. Fees may apply for our advertising partners, as set forth in the corresponding advertising agreements. We reserve the right to change our service plans to require user fees or App download fees at any time without prior notice.
+
+4. TERMS OF USAGE.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Company will not be held responsible or liable for any information that is used by a third party not privy to this agreement. In addition, you may not use the App to spread or communicate anything:
+a. that is unlawful, harmful, threatening, abusive, harassing, defamatory, pornographic, libelous, or invasive of another's privacy;
+b. that harasses, degrades, intimidates or is hateful toward an individual or group of individuals in any way;
+c. that purports to be from any person or entity, other than the User, or falsely states or otherwise misrepresents Your identity;
+d. that includes personal or identifying information about another person without that person's explicit consent;
+e. that is false, deceptive, misleading, deceitful, or mis-informative;
+f. that infringes any patent, trademark, trade secret, copyright or other proprietary rights of any party, or content that You do not have a right to make available under any law or under contractual or fiduciary relationships;
+g. that advertises any illegal services or the sale of any items the sale of which is prohibited or restricted by applicable law, including without limitation items the sale of which is prohibited or regulated by applicable law;
+h. that contains software viruses or any other code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware, device, or telecommunications equipment;
+i. that employs misleading email addresses, names, photographs, or forged headers or otherwise manipulated identifiers in order to disguise the origin of transmitted content;
+j. that violates Federal or State Law, including, without limitation, do not call lists and laws governing spam email, and other similar laws; or
+k. that seeks to engage in unlawful or violent activity, and the App may not be used for any such activity. 
+
+5. NOTICE.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">You agree that Company may provide notices to You of changes to these Terms of Use or any other policy or issue Company may have, by Site postings, in-App postings, direct messages to You through the App or otherwise. Such notices shall be considered to be received by You within 24 hours of the time they are posted to our Site or application or sent by email or through the App to unless we receive notice that the communication was not delivered. 
+
+6. EXCLUSION OF WARRANTY.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">COMPANY, ITS OFFICERS, MANAGERS, EMPLOYEES, DIRECTORS, REPRESENTATIVES, AGENTS, AFFILIATES AND ANY THIRD PARTY PROVIDERS MAKE NO WARRANTY OF ANY KIND REGARDING THE APP, THE SITE OR OTHERWISE AND/OR ANY MATERIALS PROVIDED ON THE SITE OR APP OR OTHERWISE, ALL OF WHICH ARE PROVIDED ON AN 'AS IS' BASIS. COMPANY AND ANY THIRD PARTY PROVIDERS DO NOT WARRANT THE ACCURACY, COMPLETENESS, CURRENCY OR RELIABILITY OF ANY OF THE CONTENT OR DATA FOUND ON THIS SITE OR APPLICATION AND SUCH PARTIES EXPRESSLY DISCLAIM ALL WARRANTIES AND CONDITIONS, INCLUDING IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, AND THOSE ARISING BY STATUTE OR OTHERWISE IN LAW OR FROM A COURSE OF DEALING OR USAGE OF TRADE. COMPANY SEEKS TO CONNECT USERS WITH FELLOW USERS THAT MAY, FROM TIME TO TIME, REASONABLY ENCOUNTER ISSUES THAT MAY IMPACT THE SERVICES, SUCH AS ILLNESS, HOLIDAYS, ISSUES OF FORCE MAJEUR, ETC. COMPANY SHALL NOT BE LIABLE NOR REFUNDS WILL BE AVAILABLE IN SUCH CASES. COMPANY WILL NOT BE HELD LIABLE FOR THE ACCURACY, COMPLETENESS, CURRENCY OR RELIABILITY OF THE CONTENT OR DATA PROVIDED BY ANY OTHER USER AND WILL NOT BE HELD LIABLE FOR ANY UNLAWFUL, VIOLENT, OR TORTIOUS ACTS OF ONE USER AGAINST ANOTHER USER. SOME STATES DO NOT ALLOW THE DISCLAIMER OF IMPLIED WARRANTIES, SO THE FOREGOING DISCLAIMER MAY NOT APPLY TO YOU BUT SHALL APPLY TO THE FULLEST EXTENT ALLOWABLE BY SUCH STATE’S LAW.
+
+
+
+7. COPYRIGHT.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Company is Copyright LetSinc, all rights reserved. All Site and application content, including Agreements, Disclosures, Website Text, Application Text, Layout, and Images are property of Company, or are used under license. You may not reproduce, republish, or redistribute material from the Site without permission of Company or the original copyright holder. Nothing contained on this Site should be construed as granting, by implication, waiver, estoppel, or otherwise, any license or right to use any of the copyrights without the written permission of LetSinc .</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">8. LIMITATION OF LIABILITY.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Company, its officers, managers, employees, directors, representatives, agents and affiliates assume no responsibility, and shall not be liable for, any damages to, or viruses that may infect Your computer, telephone, tablet, equipment or other property on account of Your access to, use of, or browsing in this Site or Your downloading of any materials, data, text, images, video or audio from the Site or App. Company, its officers, managers, employees, directors, representatives, agents and affiliates are also not responsible for any loss attributed to the use of our application or services. In no event shall Company, its officers, managers, employees, directors, representatives, agents, affiliates or any third party providers or distributors be liable for any injury, loss, claim, damage, or damages, including, but not limited to, any special, exemplary, punitive, indirect, incidental or consequential damages of any kind, whether based in contract, tort, strict liability, or otherwise, which arises out of or is in any way connected with (i) any use of this Site, application, or content found herein, or (ii) the actions or inactions of any other App users, registered or unregistered, or (iii) any sports related injuries stemming from the use of the Site or App. 
+
+9. NO GRANT OF RIGHTS.</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Neither the execution of this Agreement, nor the disclosure of any Proprietary Information hereunder, shall be construed as granting either expressly or by implication, estoppel or otherwise, any license under any invention or patent now or hereafter owned by or controlled by the parties.
+
+10. INDEMNIFICATION.
+
+You agree to defend, indemnify and hold Company, its officers, managers, employees, directors, representatives, agents and affiliates harmless from any claim or demand (including attorneys' fees) made or incurred by any third party due to or arising out of Your breach of this Agreement and/or Your use of the Services.
+
+
+
+
+11. DISPUTES.
+
+If a dispute arises between You and Company please contact us first. Our goal is to learn about and address Your concerns and, if we are unable to do so to Your satisfaction, to provide You with a neutral and cost effective means of resolving the dispute quickly. Disputes between You and Company regarding our services may be reported to customer service online through our App or Site.
+
+12. FORCE MAJEURE.
+
+In no event shall Company, its officers, managers, employees, directors, representatives, agents, affiliates or any third party providers or distributors be liable for any injury, loss, claim, damage, or damages, including, but not limited to, any special, exemplary, punitive, indirect, incidental or consequential damages of any kind, whether based in contract, tort, strict liability, or otherwise, which arises out of interruptions of service caused by an act of God, terrorism, accident, fire, labor controversy, riot, civil commotion, act of public enemy, law, enactment, rule order, or act of any government or governmental instrumentality, failure of technical facilities, failure or delay of transportation facilities, illness or incapacity, or other cause of a similar or dissimilar nature not reasonably within the control of Company or which Company could not by reasonable diligence have avoided (each such act specified in this paragraph shall be referred to herein as a “force majeure event”).
+
+13. BINDING ARBITRATION.
+
+YOU HEREBY AGREE THAT ANY DISPUTE, CLAIM OR CONTROVERSY ARISING NOW OR IN THE FUTURE UNDER OR RELATING IN ANY WAY TO THIS AGREEMENT, OR TO THE ONLINE SERVICE (“CLAIM”), REGARDLESS OF THE NATURE OF THE CAUSE(S) OF ACTION ASSERTED (INCLUDING CLAIMS FOR INJUNCTIVE, DECLARATORY, OR EQUITABLE RELIEF), SHALL BE RESOLVED BY BINDING ARBITRATION. CLAIMS SUBJECT TO ARBITRATION INCLUDE CLAIMS THAT ARE MADE AS COUNTERCLAIMS, CROSS CLAIMS, THIRD PARTY CLAIMS, INTERPLEADERS, OR OTHERWISE. ARBITRATION REPLACES THE RIGHT TO GO TO COURT, AND YOU THEREFORE AGREE TO WAIVE ANY RIGHT THAT YOU OR WE MIGHT OTHERWISE HAVE HAD TO A JURY TRIAL OR THE OPPORTUNITY TO LITIGATE ANY CLAIMS IN COURT BEFORE EITHER A JUDGE OR JURY. YOU FURTHER AGREE THAT YOU WILL NOT BE ABLE TO BRING A CLASS ACTION OR OTHER REPRESENTATIVE ACTION (SUCH AS AN ACTION IN THE FORM OF A PRIVATE ATTORNEY GENERAL) TO LITIGATE ANY CLAIMS IN COURT BEFORE EITHER A JUDGE OR JURY; NOR WILL YOU BE ABLE TO PARTICIPATE AS A CLASS MEMBER IN A CLASS ACTION OR OTHER REPRESENTATIVE ACTION TO LITIGATE ANY CLAIMS IN COURT BEFORE EITHER A JUDGE OR JURY.</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">14. GOVERNING LAW.
+
+This Agreement and its performance shall be governed by the laws of the state of Florida, United States of America, without regard to its conflict of laws provisions. You consent and submit to the exclusive jurisdiction of Miami-Dade county, state of Florida, United States of America, in all questions and controversies arising out of your use of this Site and this Agreement, including all questions and controversies subject to binding arbitration. To the extent allowed by applicable law, any claim or cause of action arising from or relating to your access or use of this Site must be brought within one (1) year from the date on which such claim or action accrued.
+
+15. ATTORNEY'S FEES.</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="TimesNewRomanPSMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">If Company takes any action to enforce this Agreement, Company will be entitled to recover from You, and You agree to pay, all reasonable and necessary attorney's fees, costs, and any costs of litigation, in addition to any other relief, at law or in equity, to which such parties may be entitled.
+
+16. WAIVER.
+
+Our failure to act with respect to a breach by You or others does not waive our right to act with respect to subsequent or similar breaches.
+
+17. TERMINATION.
+
+Company may terminate this Agreement and these terms and conditions and/or the provision of any of the services at any time for any reason, including any improper use of this Site and/or App or Your failure to comply with these terms and conditions. Such termination shall not effect any right to relief to which Company may be entitled, at law or in equity. Upon termination of this Agreement and these terms and conditions, all rights granted to You will terminate and revert to Company, as applicable.
+
+18. ASSIGNMENT.
+
+You may not assign, convey, subcontract or delegate Your rights, duties or obligations hereunder.
+
+19. MODIFICATION.
+
+Company may at any time modify these terms and conditions and Your continued use of the App or the Site will be conditioned upon the terms and conditions in force at the time of Your use. The most current version of the User Agreement can be accessed through the hyperlink at the bottom of the Site. It is Your responsibility to review the User Agreement regularly, as the most current version found at the bottom of the Company Site and app will supersede all earlier versions. Continued use of Your membership constitutes acceptance of the most recent version of the User Agreement. Your continued use of Your Company membership also constitutes acceptance of the terms of our Privacy Policy, the terms of which are incorporated herein. 
+
+
+
+
+
+20. SEVERABILITY.
+
+These terms and conditions shall be deemed severable. In the event that any provision is determined to be unenforceable or invalid, such provision shall nonetheless be enforced to the fullest extent permitted by applicable law, and such determination shall not affect the validity and enforceability of any other remaining provisions.
+
+21. ENTIRE AGREEMENT.
+
+This Agreement, together with any terms and conditions incorporated herein or referred to herein constitute the entire agreement between Company and the User relating to the subject matter hereof, and supersedes any prior understandings or agreements (whether oral or written) regarding the subject matter, and may not be amended or modified except in writing or by making such amendments or modifications available on the App or the Site.
+</string>
+                                                <attributes>
+                                                    <font key="NSFont" size="12" name="Calibri"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                        <tabStops/>
+                                                    </paragraphStyle>
+                                                    <color key="NSUnderlineColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Br1-6v-jbr" secondAttribute="trailing" constant="5" id="42X-ka-Iwv"/>
+                                    <constraint firstItem="Br1-6v-jbr" firstAttribute="leading" secondItem="fd3-QW-I5V" secondAttribute="leading" constant="5" id="JPN-Pb-erz"/>
+                                    <constraint firstAttribute="bottom" secondItem="Br1-6v-jbr" secondAttribute="bottom" constant="5" id="LGY-vk-d7T"/>
+                                    <constraint firstItem="Br1-6v-jbr" firstAttribute="top" secondItem="fd3-QW-I5V" secondAttribute="top" constant="5" id="sW3-9P-Gr9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0Di-QN-xT1" secondAttribute="trailing" id="8ae-U6-6wU"/>
+                            <constraint firstItem="uIH-OH-ghL" firstAttribute="top" secondItem="0Di-QN-xT1" secondAttribute="bottom" id="LTN-6v-PXx"/>
+                            <constraint firstItem="uIH-OH-ghL" firstAttribute="top" secondItem="fd3-QW-I5V" secondAttribute="bottom" constant="100" id="Ogt-Og-i9f"/>
+                            <constraint firstItem="fd3-QW-I5V" firstAttribute="leading" secondItem="het-ZF-8ux" secondAttribute="leadingMargin" id="QGQ-rL-YKv"/>
+                            <constraint firstItem="fd3-QW-I5V" firstAttribute="trailing" secondItem="het-ZF-8ux" secondAttribute="trailingMargin" id="b08-OZ-hDb"/>
+                            <constraint firstItem="0Di-QN-xT1" firstAttribute="leading" secondItem="het-ZF-8ux" secondAttribute="leading" id="cl4-dd-qBg"/>
+                            <constraint firstItem="0Di-QN-xT1" firstAttribute="top" secondItem="het-ZF-8ux" secondAttribute="top" id="jOU-hv-4kg"/>
+                            <constraint firstItem="fd3-QW-I5V" firstAttribute="top" secondItem="BnB-od-aLi" secondAttribute="bottom" constant="100" id="yYL-sV-92B"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gT6-ke-57d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208.80000000000001" y="164.16791604197903"/>
+        </scene>
+    </scenes>
+</document>

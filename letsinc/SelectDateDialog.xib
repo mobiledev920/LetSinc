@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="universltstd-ultracn-2.ttf">
+            <string>UniversLTStd-UltraCn</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelectDateDialog" customModule="LetSinc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="208"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Wt-9b-wrS">
+                    <rect key="frame" x="10" y="10" width="361" height="188"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwS-VV-DIe">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Start Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJ3-tx-VK7">
+                                    <rect key="frame" x="141.5" y="7" width="79.5" height="17"/>
+                                    <fontDescription key="fontDescription" name="UniversLTStd-UltraCn" family="Univers LT Std" pointSize="17"/>
+                                    <color key="textColor" red="0.25098039220000001" green="0.76862745099999996" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yN-wF-RUN" userLabel="Left Line">
+                                    <rect key="frame" x="8" y="15" width="125.5" height="1"/>
+                                    <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="Gca-Ah-CTd"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4OA-5Y-fOf" userLabel="Right Line">
+                                    <rect key="frame" x="229" y="15" width="124" height="1"/>
+                                    <color key="backgroundColor" red="0.92549019610000005" green="0.93725490199999995" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="GbQ-tQ-IQ8"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="6yN-wF-RUN" firstAttribute="centerY" secondItem="wwS-VV-DIe" secondAttribute="centerY" id="FSv-uE-7U8"/>
+                                <constraint firstItem="6yN-wF-RUN" firstAttribute="leading" secondItem="wwS-VV-DIe" secondAttribute="leading" constant="8" id="JSA-aj-Eii"/>
+                                <constraint firstItem="4OA-5Y-fOf" firstAttribute="leading" secondItem="YJ3-tx-VK7" secondAttribute="trailing" constant="8" id="WJm-nY-vUH"/>
+                                <constraint firstItem="YJ3-tx-VK7" firstAttribute="centerY" secondItem="wwS-VV-DIe" secondAttribute="centerY" id="bYi-H2-ioF"/>
+                                <constraint firstAttribute="height" constant="30" id="bbf-Wk-XH9"/>
+                                <constraint firstItem="4OA-5Y-fOf" firstAttribute="centerY" secondItem="wwS-VV-DIe" secondAttribute="centerY" id="dgO-Ir-KBV"/>
+                                <constraint firstItem="YJ3-tx-VK7" firstAttribute="centerX" secondItem="wwS-VV-DIe" secondAttribute="centerX" id="fcy-Db-SxO"/>
+                                <constraint firstAttribute="trailing" secondItem="4OA-5Y-fOf" secondAttribute="trailing" constant="8" id="hgO-vc-z3W"/>
+                                <constraint firstItem="YJ3-tx-VK7" firstAttribute="leading" secondItem="6yN-wF-RUN" secondAttribute="trailing" constant="8" id="ldS-dx-G1a"/>
+                            </constraints>
+                        </view>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-Ty-YUG">
+                            <rect key="frame" x="0.0" y="30" width="361" height="158"/>
+                            <date key="date" timeIntervalSinceReferenceDate="517084333.845649">
+                                <!--2017-05-21 18:32:13 +0000-->
+                            </date>
+                        </datePicker>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Tzx-Ty-YUG" secondAttribute="trailing" id="6Qs-Gx-V58"/>
+                        <constraint firstItem="wwS-VV-DIe" firstAttribute="leading" secondItem="6Wt-9b-wrS" secondAttribute="leading" id="L7z-iG-zak"/>
+                        <constraint firstAttribute="bottom" secondItem="Tzx-Ty-YUG" secondAttribute="bottom" id="PQz-u4-wAc"/>
+                        <constraint firstItem="Tzx-Ty-YUG" firstAttribute="top" secondItem="wwS-VV-DIe" secondAttribute="bottom" id="cli-8t-UJ1"/>
+                        <constraint firstItem="wwS-VV-DIe" firstAttribute="top" secondItem="6Wt-9b-wrS" secondAttribute="top" id="ge6-qK-t0A"/>
+                        <constraint firstAttribute="trailing" secondItem="wwS-VV-DIe" secondAttribute="trailing" id="pg1-7y-arj"/>
+                        <constraint firstItem="Tzx-Ty-YUG" firstAttribute="leading" secondItem="6Wt-9b-wrS" secondAttribute="leading" id="yOL-zF-PF5"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6Wt-9b-wrS" secondAttribute="bottom" constant="10" id="Mon-Vi-XLs"/>
+                <constraint firstItem="6Wt-9b-wrS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ZEt-aK-ocT"/>
+                <constraint firstItem="6Wt-9b-wrS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="eIi-q0-4Qh"/>
+                <constraint firstAttribute="trailing" secondItem="6Wt-9b-wrS" secondAttribute="trailing" constant="10" id="jIN-S0-EDw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dialogTitleLabel" destination="YJ3-tx-VK7" id="qnD-DV-cdO"/>
+                <outlet property="selectDatePicker" destination="Tzx-Ty-YUG" id="x4r-Ji-7RS"/>
+            </connections>
+            <point key="canvasLocation" x="31.5" y="-175"/>
+        </view>
+    </objects>
+</document>

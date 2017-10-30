@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="universltstd-ultracn-2.ttf">
+            <string>UniversLTStd-UltraCn</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LocationAttendeesDialog" customModule="LetSinc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="214"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTg-7u-La9">
+                    <rect key="frame" x="10" y="10" width="361" height="194"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oDS-be-pon">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="October 17, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgg-k8-vI4">
+                                    <rect key="frame" x="139.5" y="7" width="82.5" height="17"/>
+                                    <fontDescription key="fontDescription" name="UniversLTStd-UltraCn" family="Univers LT Std" pointSize="17"/>
+                                    <color key="textColor" red="0.25098039220000001" green="0.76862745099999996" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qp7-Pl-6kw" userLabel="Left Line">
+                                    <rect key="frame" x="8" y="15" width="123.5" height="1"/>
+                                    <color key="backgroundColor" red="0.92549019607843142" green="0.93725490196078431" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="7O8-m4-99w"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfY-WU-SVn" userLabel="Right Line">
+                                    <rect key="frame" x="230" y="15" width="123" height="1"/>
+                                    <color key="backgroundColor" red="0.92549019607843142" green="0.93725490196078431" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="Oax-m7-29F"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="xgg-k8-vI4" firstAttribute="leading" secondItem="Qp7-Pl-6kw" secondAttribute="trailing" constant="8" id="NLt-kt-BNF"/>
+                                <constraint firstItem="Qp7-Pl-6kw" firstAttribute="leading" secondItem="oDS-be-pon" secondAttribute="leading" constant="8" id="UNK-HJ-3iZ"/>
+                                <constraint firstAttribute="height" constant="30" id="X03-TY-3hK"/>
+                                <constraint firstItem="pfY-WU-SVn" firstAttribute="leading" secondItem="xgg-k8-vI4" secondAttribute="trailing" constant="8" id="c1M-Mz-0jX"/>
+                                <constraint firstItem="xgg-k8-vI4" firstAttribute="centerX" secondItem="oDS-be-pon" secondAttribute="centerX" id="fBn-yU-dZa"/>
+                                <constraint firstItem="Qp7-Pl-6kw" firstAttribute="centerY" secondItem="oDS-be-pon" secondAttribute="centerY" id="fSF-sP-99F"/>
+                                <constraint firstItem="xgg-k8-vI4" firstAttribute="centerY" secondItem="oDS-be-pon" secondAttribute="centerY" id="hM8-Ju-J6F"/>
+                                <constraint firstAttribute="trailing" secondItem="pfY-WU-SVn" secondAttribute="trailing" constant="8" id="iIu-af-tXu"/>
+                                <constraint firstItem="pfY-WU-SVn" firstAttribute="centerY" secondItem="oDS-be-pon" secondAttribute="centerY" id="vte-FK-cl1"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6fU-bd-Iww">
+                            <rect key="frame" x="0.0" y="30" width="361" height="164"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="6fU-bd-Iww" secondAttribute="trailing" id="AsF-Se-wXT"/>
+                        <constraint firstItem="6fU-bd-Iww" firstAttribute="leading" secondItem="RTg-7u-La9" secondAttribute="leading" id="Ld4-n8-P4U"/>
+                        <constraint firstItem="6fU-bd-Iww" firstAttribute="top" secondItem="oDS-be-pon" secondAttribute="bottom" id="MU9-xh-c2W"/>
+                        <constraint firstAttribute="bottom" secondItem="6fU-bd-Iww" secondAttribute="bottom" id="eTd-a5-b8i"/>
+                        <constraint firstAttribute="trailing" secondItem="oDS-be-pon" secondAttribute="trailing" id="j4E-Rz-RP3"/>
+                        <constraint firstItem="oDS-be-pon" firstAttribute="leading" secondItem="RTg-7u-La9" secondAttribute="leading" id="kyf-64-3sK"/>
+                        <constraint firstItem="oDS-be-pon" firstAttribute="top" secondItem="RTg-7u-La9" secondAttribute="top" id="om1-vF-yal"/>
+                        <constraint firstAttribute="height" constant="194" id="qnl-Oi-nQt"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RTg-7u-La9" secondAttribute="bottom" constant="10" id="PaV-DT-tpi"/>
+                <constraint firstAttribute="trailing" secondItem="RTg-7u-La9" secondAttribute="trailing" constant="10" id="Unh-xG-14S"/>
+                <constraint firstItem="RTg-7u-La9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="v4v-wK-Nc6"/>
+                <constraint firstItem="RTg-7u-La9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="xqa-mE-a1Z"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="headerDateLabel" destination="xgg-k8-vI4" id="Psp-ej-y93"/>
+                <outlet property="headerLeftLineHeightConstraint" destination="7O8-m4-99w" id="6VI-7u-B2N"/>
+                <outlet property="headerRightLineHeightConstraint" destination="Oax-m7-29F" id="oDk-1Q-nzf"/>
+                <outlet property="tableView" destination="6fU-bd-Iww" id="Ktr-b8-Ipz"/>
+            </connections>
+            <point key="canvasLocation" x="36.5" y="-172"/>
+        </view>
+    </objects>
+</document>

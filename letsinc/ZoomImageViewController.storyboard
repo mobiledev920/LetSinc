@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OUP-hr-ZZC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Zoom Image View Controller-->
+        <scene sceneID="CvF-4n-Z1O">
+            <objects>
+                <viewController storyboardIdentifier="ZoomImageViewController" id="OUP-hr-ZZC" customClass="ZoomImageViewController" customModule="LetSinc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nNb-Kz-BAa"/>
+                        <viewControllerLayoutGuide type="bottom" id="swJ-ME-cfH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q4F-tp-QA9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rhs-k4-QHH" customClass="LSImageView" customModule="LetSinc" customModuleProvider="target">
+                                <rect key="frame" x="67" y="163.5" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Epr-br-gs3"/>
+                                    <constraint firstAttribute="width" constant="240" id="i8J-SG-LY3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlF-NZ-FU5">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <action selector="onDismissTriggered:" destination="OUP-hr-ZZC" eventType="touchUpInside" id="Z2X-7m-yJD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zlF-NZ-FU5" firstAttribute="leading" secondItem="q4F-tp-QA9" secondAttribute="leading" id="4fs-ro-haE"/>
+                            <constraint firstAttribute="trailing" secondItem="zlF-NZ-FU5" secondAttribute="trailing" id="BSE-Gy-gcF"/>
+                            <constraint firstItem="zlF-NZ-FU5" firstAttribute="top" secondItem="nNb-Kz-BAa" secondAttribute="bottom" id="aRI-rJ-hCp"/>
+                            <constraint firstItem="swJ-ME-cfH" firstAttribute="top" secondItem="zlF-NZ-FU5" secondAttribute="bottom" id="ngs-CX-IY4"/>
+                            <constraint firstItem="rhs-k4-QHH" firstAttribute="centerY" secondItem="q4F-tp-QA9" secondAttribute="centerY" constant="-50" id="oSA-Ct-t1N"/>
+                            <constraint firstItem="rhs-k4-QHH" firstAttribute="centerX" secondItem="q4F-tp-QA9" secondAttribute="centerX" id="obC-wk-EyI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="rhs-k4-QHH" id="UNS-wX-aEG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjg-bh-OQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="178" y="175"/>
+        </scene>
+    </scenes>
+</document>

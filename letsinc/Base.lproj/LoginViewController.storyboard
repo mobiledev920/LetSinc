@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Graphik-Bold.otf">
+            <string>Graphik-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="LetSinc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-screen-background" translatesAutoresizingMaskIntoConstraints="NO" id="zRm-s4-YfN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qId-0e-kcs">
+                                <rect key="frame" x="92.5" y="576" width="190" height="48"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.19607843137254902" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qId-0e-kcs" secondAttribute="height" multiplier="368:93" id="3fg-4h-4GD"/>
+                                    <constraint firstAttribute="width" constant="190" id="SQp-VZ-XSu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Graphik-Bold" family="Graphik" pointSize="17"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSignUpTriggered:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KHQ-jS-qK0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zRm-s4-YfN" secondAttribute="bottom" id="734-Dj-s4q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qId-0e-kcs" secondAttribute="bottom" constant="43" id="BJh-NM-hOD"/>
+                            <constraint firstItem="qId-0e-kcs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D75-nf-lHj"/>
+                            <constraint firstItem="zRm-s4-YfN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SHQ-yL-hJq"/>
+                            <constraint firstAttribute="trailing" secondItem="zRm-s4-YfN" secondAttribute="trailing" id="Xmw-Dp-qv9"/>
+                            <constraint firstItem="zRm-s4-YfN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XtU-Be-NkJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gY8-nd-DAl"/>
+                    <connections>
+                        <outlet property="signUpButton" destination="qId-0e-kcs" id="RU8-bg-VSa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="147"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash-screen-background" width="375" height="667"/>
+    </resources>
+</document>
